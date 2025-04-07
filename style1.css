@@ -1,0 +1,52 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Center content */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stylish buttons */
+  button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Input styles */
+  input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  
+  
+  
+  }
